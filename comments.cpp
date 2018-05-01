@@ -37,7 +37,6 @@ int main()
                     while(ch[j]!='\0')
                         j++;
                     j--;
-                        cout<<'\n';
                 }
                 else
                     cout<<ch[j];
@@ -58,6 +57,7 @@ int main()
             else
                 cout<<ch[j];
         }
+        cout<<'\n';
         ch[0]='\0';
     }
     return 0;
